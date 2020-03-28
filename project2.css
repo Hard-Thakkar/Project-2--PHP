@@ -1,0 +1,140 @@
+html{
+	background-image:url("bg3.jfif");
+	background-repeat:no-repeat;
+	background-size: 1600px 800px;
+}
+
+#img1{
+	width:40%;
+	height:65%;
+	position:absolute;
+	left:400px;
+	top:80px;
+	opacity:0.5;
+}
+
+#header{
+	width:100%;
+	height:7%;
+	display:flex;
+	justify-content: flex-end;
+  /*background-color: Lightblue; 
+	display:flex;
+	justify-content:center;
+	align-items:center */
+}
+
+a{
+	font-family:Impact, Charcoal, sans-serif;
+	font-size: 20px;
+	color:white;
+	text-decoration:none;
+}
+a:hover{
+	background-color:#ebc002;
+	color:black;
+}
+
+.updated_money{		/*box on the top at center */
+	background-color:#07083b;
+	width:35%;
+	height:10%;
+	position:absolute;
+	top:10px;
+	left:400px;
+	margin:auto;
+	font-family:Impact, Charcoal, sans-serif;
+	font-size: 20px;
+	color:white;
+	border-radius: 50px;
+	border: 1px solid white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.lifelines{
+	width:7%;
+	height:80%;	
+	padding:0px 10px 0px 0px;
+	
+}
+
+.lifelines:hover{
+	cursor:pointer;
+	transform: scale(1.1,1.1);
+	
+}
+
+
+#rside{			/*	right side div for money prizes list*/
+	width:20%;
+	height:275px;
+	position:absolute;
+	right:20px;
+	top: 80px;
+	background-color: red;
+}
+
+#question{		/* A div containing a question and 4 options*/
+	width:99%;
+	height:40%;
+/*	background-color:pink; */    
+	position:absolute;
+	bottom:0px;
+	left:10px;
+	right:10px;
+}
+
+#question-box{		/* box that contains the question */
+	width:94%;
+	height:35%;
+	background-color:#07083b;
+	position:relative;
+	top:20px;
+	font-family:Impact, Charcoal, sans-serif;
+	font-size: 20px;
+	color: white;
+	margin:auto;
+    text-align:center;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-radius: 50px;
+	border:1px solid white;
+}
+
+#options-div{		/* a div box containing all 4 options */
+/*	background-color:red; */
+	width:94%;
+	height:55%;
+	
+	position:relative;
+	top:25px;
+	margin:auto;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+}
+
+.options{		/* each option box */
+	background-color:#07083b;
+	width:47%;
+	height:45%;
+	position:relative;
+	bottom:5px;
+	margin:auto;
+	font-family:Impact, Charcoal, sans-serif;
+	font-size: 20px;
+	color:white;
+	border-radius: 50px;
+	border: 1px solid white;
+	cursor:pointer;
+}
+
+.options:hover{
+	background-color:#ebc002;
+	color:black;
+}
+
+	
