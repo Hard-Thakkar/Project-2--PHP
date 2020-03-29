@@ -18,7 +18,7 @@ html{
 	height:7%;
 	display:flex;
 	justify-content: flex-end;
-  /*background-color: Lightblue; 
+  /*background-color: Lightblue;
 	display:flex;
 	justify-content:center;
 	align-items:center */
@@ -55,15 +55,15 @@ a:hover{
 
 .lifelines{
 	width:7%;
-	height:80%;	
+	height:80%;
 	padding:0px 10px 0px 0px;
-	
+
 }
 
 .lifelines:hover{
 	cursor:pointer;
 	transform: scale(1.1,1.1);
-	
+
 }
 
 
@@ -79,7 +79,7 @@ a:hover{
 #question{		/* A div containing a question and 4 options*/
 	width:99%;
 	height:40%;
-/*	background-color:pink; */    
+/*	background-color:pink; */
 	position:absolute;
 	bottom:0px;
 	left:10px;
@@ -108,7 +108,7 @@ a:hover{
 /*	background-color:red; */
 	width:94%;
 	height:55%;
-	
+
 	position:relative;
 	top:25px;
 	margin:auto;
@@ -136,5 +136,3 @@ a:hover{
 	background-color:#ebc002;
 	color:black;
 }
-
-	
