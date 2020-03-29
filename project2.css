@@ -12,6 +12,14 @@ html{
 	top:80px;
 	opacity:0.5;
 }
+#img1Menus{
+	width:40%;
+	height:80%;
+	left:400px;
+	top:60px;
+	opacity:0.5;
+	float: left;
+}
 
 #header{
 	width:100%;
@@ -73,7 +81,17 @@ a:hover{
 	position:absolute;
 	right:20px;
 	top: 80px;
-	background-color: red;
+}
+.rsideOptions{
+	border-radius: 50px;
+	border: 1px solid white;
+	cursor:pointer;
+	width: 100%;
+	background-color: Lightblue;
+	height: 25%;
+	position: relative;
+	font-family:Impact, Charcoal, sans-serif;
+	font-size: 30px;
 }
 
 #question{		/* A div containing a question and 4 options*/
@@ -117,6 +135,24 @@ a:hover{
 	justify-content: space-around;
 }
 
+#Menus{
+	margin:20px;;
+}
+.optionsMenu{
+	background-color:#07083b;
+	width:25%;
+	height:25%;
+	position:relative;
+	bottom:5px;
+	margin: 10px;
+	font-family:Impact, Charcoal, sans-serif;
+	font-size: 20px;
+	color:white;
+	border-radius: 50px;
+	border: 1px solid white;
+	cursor:pointer;
+	float: right;
+}
 .options{		/* each option box */
 	background-color:#07083b;
 	width:47%;
